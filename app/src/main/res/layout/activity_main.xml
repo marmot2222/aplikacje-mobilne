@@ -19,13 +19,15 @@
             android:layout_height="wrap_content"
             android:text="Rejestracja"
             android:layout_marginTop="20dp"
-            android:textSize="35dp"/>
+            android:textSize="35dp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Utwórz nowe konto"
-            android:layout_marginTop="12dp"/>
+            android:layout_marginTop="12dp"
+            android:id="@+id/EditKonto"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -38,7 +40,8 @@
             android:layout_height="wrap_content"
             android:hint="Wpisz imię"
             android:inputType="textPassword"
-            android:layout_marginTop="6dp"/>
+            android:layout_marginTop="6dp"
+            android:id="@+id/EditName"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -52,6 +55,7 @@
             android:hint="Wpisz nazwisko"
             android:inputType="textPassword"
             android:layout_marginTop="6dp"
+            android:id="@+id/EditSurname"
             />
 
         <TextView
@@ -65,7 +69,8 @@
             android:layout_height="wrap_content"
             android:hint="Wpisz email"
             android:inputType="textPassword"
-            android:layout_marginTop="6dp"/>
+            android:layout_marginTop="6dp"
+            android:id="@+id/EditEmail"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -78,13 +83,15 @@
             android:layout_height="wrap_content"
             android:hint="Wpisz hasło"
             android:inputType="textPassword"
-            android:layout_marginTop="6dp"/>
+            android:layout_marginTop="6dp"
+            android:id="@+id/EditPassword"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Zarejestruj"
         android:layout_marginTop="30dp"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/BtnRegister"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
